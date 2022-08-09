@@ -47,7 +47,7 @@ const showPets = function (petArray) {
   for (let pet of petArray) {
     let status = "ready to play!";
     if (pet.isTired >= 7) {
-      status = "sleeping";
+      status = "sleeping!";
     }
 
     const li = document.createElement("li");
